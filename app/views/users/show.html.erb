@@ -12,7 +12,9 @@
     </td>
     <td class="sidebar round">
       <strong>Name</strong> <%= @user.name %><br />
-      <strong>URL</strong>  <%= link_to user_path(@user), @user %>
+      <strong>URL</strong>  <%= link_to user_path(@user), @user %> 
+	<br> 	</	br>
+	  <%= link_to "Edit Profile", edit_user_path(current_user), :class => "link2" %>
     </td>
   </tr>
 </table>

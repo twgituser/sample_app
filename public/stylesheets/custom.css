@@ -15,11 +15,13 @@ header img {
   background: #bfcccc;
 }
 
+
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
   background: #fff;
+
 }
 
 section h1 {
@@ -186,9 +188,18 @@ div.field, div.actions {
 }
 
 
+.main_icon {
+padding: 0px;  
+color: "Red";
+}
 
 
-
+.link2 {
+	color: #1240AB;
+	font-size: 16px;
+	font-weight: bold;
+    text-decoration: underline;
+}
 
 
 

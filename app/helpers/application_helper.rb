@@ -12,7 +12,8 @@ module ApplicationHelper
   end
   
   def logo
-    image_tag("logo.png", :alt => "No Image", :class => "round")
+    image_tag("Millwall_Crest.png", :class => "main_icon", :class => "round",  :size => "150x120", :alt => "No Image")
   end
+  
   
 end
